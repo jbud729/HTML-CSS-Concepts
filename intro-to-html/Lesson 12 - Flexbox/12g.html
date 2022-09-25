@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>12g</title>
+    <style>
+      .flexbox {
+        display: flex;
+        flex-direction: row;
+        width: 300px;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      .image {
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+        object-fit: cover;
+        margin-right: 15px;
+      }
+
+    .info {
+      flex: 1;
+    }
+
+    .pet-name {
+      font-weight: bold;
+    }
+
+    .pet-description, .popularity {
+      color: grey;
+    }
+
+    .popularity {
+      font-size: 14px;
+    }
+
+    .pet-name {
+      margin-bottom: 3px;
+    }
+
+    .popularity {
+      margin-top: 3px;
+    }
+
+    button {
+      background-color: rgb(49, 109, 245);
+      color: white;
+      border: none;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+  
+    </style>
+  </head>
+
+  <body>
+    <div class="flexbox">
+
+      <div> <img class="image" src="/intro-to-html/Lesson 9 - div_element/Dog.jpg"></div>
+      <div class="info">
+        <div class="pet-name">Oliver</div>
+        <div class="pet-description">the dog</div>
+        <div class="popularity">popular</div>
+      </div>
+      <div>
+        <button>Follow</button>
+      </div>
+    </div>
+
+    
+    <div class="flexbox">
+      <div> <img class="image" src="/intro-to-html/Lesson 9 - div_element/Dog2.jpg"></div>
+      <div class="info">
+        <div class="pet-name">Mimi</div>
+        <div class="pet-description">the dog</div>
+        <div class="popularity">Popular</div>
+      </div>
+      <div>
+        <button>Follow</button>
+      </div>
+    </div>
+
+    <div class="flexbox">
+      <div> <img class="image" src="/intro-to-html/Lesson 9 - div_element/Dog3.jpg"></div>
+      <div class="info">
+        <div class="pet-name">Rex</div>
+        <div class="pet-description">the dog</div>
+        <div class="popularity">Popular</div>
+      </div>
+      <div>
+        <button>Follow</button>
+      </div>
+    </div>
+
+
+  </body>
+</html>

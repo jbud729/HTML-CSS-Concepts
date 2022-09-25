@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>10e</title>
+    <style>
+
+      p{
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      .profile {
+        box-shadow: 0px 0px 5px black;
+        display: inline-block;
+        margin-right: 15px;
+        width: 200px;
+      }
+      .pic {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+      }
+
+      .pic,.name,.friend {
+        margin-bottom: 0;
+        margin-top: 0;
+      }
+
+      .name {
+        font-weight: bold;
+        margin-bottom: 5px;
+        margin-left: 5px;
+      }
+      .friend {
+        color: grey;
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      button {
+        margin-top: 10px;
+        background-color: rgba(93, 93, 207, 0.992);
+        color: white;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 8px;
+        display: block;
+        margin-left: 5px;
+        margin-bottom: 10px;
+        
+      }
+
+      button:hover {
+        opacity: 0.5;
+      }
+
+
+      .friend-pic {
+        width: 30px;
+        border-radius: 15px;
+        vertical-align: middle;
+        margin-left: 4px;
+        margin-right: 5px;
+      }
+
+
+    </style>
+    <body>
+
+      <div class="profile">
+        <img class="pic" src="/intro-to-html/Lesson 9 - div_element/Dog.jpg">
+        <p class="name">Oliver</p>
+
+        <div class="mutual-friend-row">
+          <img class="friend-pic" src="user.jpg">
+          <p class="friend">2 mutual friends</p>
+        </div>
+
+        <button>Add Friend</button>
+      </div>
+
+
+      <div class="profile">
+        <img class="pic" src="/intro-to-html/Lesson 9 - div_element/Dog2.jpg">
+        <p class="name">Rex</p>
+        <div class="mutual-friend-row">
+          <img class="friend-pic" src="user.jpg">
+          <p class="friend">2 mutual friends</p>
+        </div>
+        <button>Add Friend</button>
+      </div>
+
+      <div class="profile">
+        <img class="pic" src="/intro-to-html/Lesson 9 - div_element/Dog3.jpg">
+        <p class="name">Mimi</p>
+        <div class="mutual-friend-row">
+          <img class="friend-pic" src="user.jpg">
+          <p class="friend">2 mutual friends</p>
+        </div>
+        <button>Add Friend</button>
+      </div>
+     
+    </body>
+  </head>
+</html>

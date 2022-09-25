@@ -1,0 +1,62 @@
+body {
+  height: 3000px;
+  padding-left: 80px;
+  
+}
+
+.discord-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-sidebar {
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 90px;
+  padding-left: 14px;
+  padding-top: 15px;
+}
+
+.dog {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 30px;
+  vertical-align: middle;
+  margin-bottom: 10px;
+}
+
+
+
+.right-sidebar {
+  background-color: gray;
+  position: fixed;
+  top: 0;
+  left: 90px;
+  bottom: 0;
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-top: 15px;
+  font-family: Arial;
+}
+
+.info {
+  font-weight: bold;
+  color: white;
+}
+
+p {
+  color: rgb(200, 194, 194);
+}
+
+.plus-sign {
+  height: 15px;
+  padding-right: 25px;
+}

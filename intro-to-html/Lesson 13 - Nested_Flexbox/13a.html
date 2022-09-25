@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>13a</title>
+  </head>
+  <style>
+    .flexbox-whole {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .flexbox-left-side {
+      background-color: lightpink;
+      width: 100px;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      color: white;
+      font-size: 24px;
+      justify-content: center;
+    }
+
+    .item {
+      background-color: black;
+    }
+
+    .right-side {
+      background-color: lightblue;
+      width: 200px;
+      height: 100px;
+    }
+
+
+  </style>
+
+  <body>
+    <div class="flexbox-whole">
+      <div class="flexbox-left-side"><p class="item">item1</p></div>
+      <div class="right-side"></div>
+    </div>
+
+  </body>
+
+</html>

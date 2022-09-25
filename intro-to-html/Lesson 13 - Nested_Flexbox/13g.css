@@ -1,0 +1,67 @@
+.twitter-setup {
+  display: flex;
+  flex-direction: row; 
+  width: 420px;
+  margin-left: 25px;
+}
+
+.twitter-pic-container {
+  margin-right: 15px;
+
+}
+
+.handle {
+  font-weight: bold;
+}
+
+.social {
+  color: gray;
+}
+
+div {
+  font-family: Arial;
+}
+
+
+
+.twitter-user-pic {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  vertical-align: middle;
+  }
+
+  .description {
+    width: 350px;
+    margin-bottom: 15px;
+  }
+
+  .attachment {
+    display: flex;
+    flex-direction: row;
+    width: 310px;
+    justify-content: space-between;
+    border-style: solid;
+    align-items: center;
+    border-radius: 15px;
+    border-width: 1px;
+    overflow: hidden;
+  }
+
+  .left-side {
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+  }
+
+
+
+
+
+  .youtube-title {
+    width: 200px;
+    line-height: 22px;
+  }
+
+
